@@ -1,0 +1,6 @@
+You selected : Paper
+The computer selected : Scissors
+Loss
+You selected : Paper
+The computer selected : Paper
+Draw
