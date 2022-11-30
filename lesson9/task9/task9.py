@@ -1,4 +1,5 @@
-
+# Напишіть декоратор, який вимірює і виводить на екран час виконання функції в секундах і задекоруйте ним основну функцію гри з попередньої дз.
+# Після закінчення гри декоратор має сповістити, скільки тривала гра.
 import random
 from time import time
 
@@ -12,7 +13,7 @@ def decorator_time(func):
 		t1 = time()
 		result = func(*args, **kwargs)
 		t2 = time()
-		print(f'Function {func.__name__!r} executed in {(t2-t1):.10f}s')
+		print(f'The game lasted {(t2-t1):.10f}s')
 		return result
 	return wrapper
 
