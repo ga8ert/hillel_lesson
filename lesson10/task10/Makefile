@@ -1,4 +1,5 @@
 setup:
+	pip3 freeze > requirements.txt
 	@echo 'setup has started'
 	pip3 install -r requirements.txt
 	@echo 'setup has finished'
